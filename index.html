@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivian 啤酒專賣店</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- 容器 -->
+    <div class="container">
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+            <a class="navbar-brand" href="#">Vivian 啤酒專賣店</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">產品介紹 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">服務</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">聯絡我們</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 輪播 -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/beer1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>今夏新品：黃金生啤</h5>
+                        <p>夏日炎炎就是要來一杯冰冰涼涼的黃金生啤！</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/beer2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>熱銷商品：可樂啤酒</h5>
+                        <p>可樂 + 啤酒 = 蹦出新滋味！！！</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/beer3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>生日優惠：啤酒調色盤</h5>
+                        <p>當月壽星享有啤酒調色盤免費優惠喔!</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- 產品介紹 -->
+        <h1 class="py-3">產品介紹</h1>
+        <!-- 手機：12，平板：6 -->
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mb-3">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./img/beer1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">黃金啤酒</h5>
+                        <p class="card-text">夏日炎炎就是要來一杯冰冰涼涼的黃金生啤！</p>
+                        <p class="card-text">$109</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-3">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./img/beer2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">可樂啤酒</h5>
+                        <p class="card-text">可樂 + 啤酒 = 蹦出新滋味！！！</p>
+                        <p class="card-text">$79</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-3">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./img/beer3.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">啤酒調色盤</h5>
+                        <p class="card-text">當月壽星享有啤酒調色盤免費優惠喔!隨機搭配的五杯小啤酒。</p>
+                        <p class="card-text">$159</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mb-3">
+                <div class="card bg-dark text-white border-0">
+                    <img src="./img/beer4.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">黑皮啤酒</h5>
+                        <p class="card-text">喝了就會很黑皮的啤酒，快來一杯吧！</p>
+                        <p class="card-text">$99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 服務 -->
+        <h1 class="py-3">服務</h1>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card mb-3">
+                    <img src="./img/service1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">舒適環境</h5>
+                        <p class="card-text">位於海灘旁的酒吧，讓你享受一邊吹著海風一邊喝著啤酒。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card mb-3">
+                    <img src="./img/service2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">無限暢飲方案</h5>
+                        <p class="card-text">本店提供無限暢飲方案，不怕你喝，就怕你喝不夠！</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card mb-3">
+                    <img src="./img/service3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">定期新品</h5>
+                        <p class="card-text">定期研發全新口味挑戰你的味蕾。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 聯絡我們 -->
+        <h1 class="py-3">聯絡我們</h1>
+
+        <form>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">姓名</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputEmail3">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">信箱</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputPassword3">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-2">請輸入您的建議</div>
+                <div class="col-sm-10">
+                    <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12 text-center py-3">
+                    <button type="submit" class="btn btn-primary">送出</button>
+                </div>
+            </div>
+        </form>
+        <!-- 地圖 -->
+        <iframe class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.658140177829!2d120.68334131538943!3d24.148640979361932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d68fe76583d%3A0x4ae16754ccc83ff5!2z5rC05Yip5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1592122109946!5m2!1szh-TW!2stw"
+            width="800" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+
+        <!-- 頁尾 -->
+        <footer class="text-center py-5 text-black-50">
+            &copy; Vivian 啤酒專賣店 2020. All Right Reserver.
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
